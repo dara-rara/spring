@@ -12,20 +12,17 @@ public class ClothingConfig {
     @Bean
      public Blouse blouse(){
         var blouse = new Blouse();
-        blouse.getType();
         return blouse;
     }
 
     @Bean
     public Trousers trousers(){
         var trousers = new Trousers();
-        trousers.getType();
         return trousers;
     }
     @Bean
     public Dress dress(){
         var dress = new Dress();
-        dress.getType();
         return dress;
     }
 }

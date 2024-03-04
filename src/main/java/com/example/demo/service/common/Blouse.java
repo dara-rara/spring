@@ -2,7 +2,7 @@ package com.example.demo.service.common;
 
 public class Blouse implements Clothing {
     @Override
-    public void getType() {
-        System.out.println("Blouse");
+    public void sew() {
+        System.out.println("sew blouse");
     }
 }

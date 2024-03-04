@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ServiceClothing {
-    //ошибка с аннотацией @Log4j2
+    //ошибка с аннотацией @Log4j2 в IDEA Community
     private static final org.apache.logging.log4j.Logger log =
             org.apache.logging.log4j.LogManager.getLogger(ServiceClothing.class);
     private final Blouse blouse;
@@ -18,7 +18,6 @@ public class ServiceClothing {
     private Dress dress;
     private Trousers trousers;
 
-    @Autowired
     public ServiceClothing(Blouse blouse) {
         this.blouse = blouse;
     }
